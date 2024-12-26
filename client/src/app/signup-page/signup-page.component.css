@@ -1,0 +1,76 @@
+.container-fluid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+h1 {
+    font-family: Sofia, Roboto;
+    text-align: center;
+    font-size: 4rem;
+    color: #1C6758;
+}
+
+form {
+    border-radius: 1%;
+    padding: 2% 3% 2% 3%;
+    background-color: #cfdad2;
+}
+
+label {
+    font-size: 1rem;
+    font-family: Roboto;
+    font-weight: 400;
+}
+
+.css-button-sliding-to-left--green {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    z-index: 0;
+    background: #fff;
+    overflow: hidden;
+    border: 2px solid #3D8361;
+    color: #3D8361;
+}
+
+.css-button-sliding-to-left--green:hover {
+    color: #fff;
+}
+
+.css-button-sliding-to-left--green:hover:after {
+    width: 100%;
+}
+
+.css-button-sliding-to-left--green:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    transition: all 0.3s ease;
+    right: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background: #3D8361;
+}
+
+
+input.ng-invalid.ng-touched{
+    border: 1px solid red;
+}
+
+.error{
+    font-family: Tilt Neon;
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: red;
+}

@@ -1,0 +1,4 @@
+server/src/main/resources/serviceKey.json
+server/src/test/
+server/target/
+client/node_modules/

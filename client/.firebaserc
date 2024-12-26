@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "Pnyx-fbf5b"
+  },
+  "targets": {
+    "Pnyx-fbf5b": {
+      "hosting": {
+        "project-Pnyx": [
+          "Pnyx-fbf5b"
+        ]
+      }
+    }
+  }
+}
