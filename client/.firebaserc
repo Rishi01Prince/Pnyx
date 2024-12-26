@@ -1,12 +1,12 @@
 {
   "projects": {
-    "default": "Pnyx-fbf5b"
+    "default": "Flora-fbf5b"
   },
   "targets": {
-    "Pnyx-fbf5b": {
+    "Flora-fbf5b": {
       "hosting": {
-        "project-Pnyx": [
-          "Pnyx-fbf5b"
+        "project-Flora": [
+          "Flora-fbf5b"
         ]
       }
     }

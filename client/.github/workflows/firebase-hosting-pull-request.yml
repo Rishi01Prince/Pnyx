@@ -13,5 +13,5 @@ jobs:
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
-          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_Pnyx_FBF5B }}'
-          projectId: Pnyx-fbf5b
+          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_Flora_FBF5B }}'
+          projectId: Flora-fbf5b

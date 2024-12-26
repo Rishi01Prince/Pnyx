@@ -69,7 +69,7 @@ export class SignupPageComponent {
       subscribe(
         respondData => {
           //making user ready for authentication
-          this.http.post('https://Pnyx-fbf5b-default-rtdb.firebaseio.com/users.json',{email: this.email}).subscribe(respondData => {console.log(respondData)});
+          this.http.post('https://Flora-fbf5b-default-rtdb.firebaseio.com/users.json',{email: this.email}).subscribe(respondData => {console.log(respondData)});
           //Creating model to add it later in the firestore
           this.model={
             EMAIL_ADD:this.email,
@@ -81,7 +81,7 @@ export class SignupPageComponent {
 
 
           this.productsRef.doc(this.email).set(this.model).then( _ => alert("Signed up Successfully!!"));     //adding data to firestore
-          // this.http.post('https://Pnyx-fbf5b-default-rtdb.firebaseio.com/profiles.json',{firstName:this.f_name,lastName:this.l_name,userName:this.u_name,email: this.email,password:this.password}).subscribe(respondData => {console.log(respondData)});
+          // this.http.post('https://Flora-fbf5b-default-rtdb.firebaseio.com/profiles.json',{firstName:this.f_name,lastName:this.l_name,userName:this.u_name,email: this.email,password:this.password}).subscribe(respondData => {console.log(respondData)});
           this.router.navigate(['/']);  //navigating to login page
         },
         errorMessage => {

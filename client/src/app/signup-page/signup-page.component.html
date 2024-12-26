@@ -1,6 +1,6 @@
 <div class="container-fluid">
     <form class="col-4" #authForm="ngForm">
-        <h1>Pnyx</h1>
+        <h1>Flora</h1>
         <hr class="mb-2">
         <div class="mb-2 mt-3">
             <label for="f_name" class="form-label">First Name</label>
@@ -28,7 +28,7 @@
         </div>
         <div class="mb-2">
             <div class="error" *ngIf=" errorMessage == 'UNKNOWN_ERROR' ">An unexpected error occurred!!</div>
-            <button type="submit" class="css-button-sliding-to-left--green mt-2" (click)="onSubmit(authForm)" [disabled]=(!authForm.valid) >Pnyxl !!! </button>
+            <button type="submit" class="css-button-sliding-to-left--green mt-2" (click)="onSubmit(authForm)" [disabled]=(!authForm.valid) >Floral !!! </button>
         </div>
     </form>
 </div>

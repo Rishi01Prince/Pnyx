@@ -3,7 +3,7 @@ import { LoginService } from 'src/services/login.service';
 
 const config = {
   apiKey: 'AIzaSyCXDVFX6EdK1-4DpbEGrqocOgpPAEqN7DQ',
-  databaseURL: 'https://Pnyx-fbf5b-default-rtdb.firebaseio.com'
+  databaseURL: 'https://Flora-fbf5b-default-rtdb.firebaseio.com'
 };
 
 @Component({
@@ -15,7 +15,7 @@ const config = {
 export class AppComponent {
   constructor (private loginService: LoginService) {}
 
-  title = 'project-Pnyx';
+  title = 'project-Flora';
 
   ngOnInit() {
     this.loginService.autoLogin();
